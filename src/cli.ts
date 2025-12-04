@@ -121,7 +121,7 @@ async function main(): Promise<void> {
           logForDebugging('Initializing sandbox...')
           await SandboxManager.initialize(runtimeConfig)
 
-          // Join and command arguments into a single command string
+          // Quote and join command arguments into a single command string
           const command = quote(commandArgs)
           logForDebugging(`Original command: ${command}`)
 
