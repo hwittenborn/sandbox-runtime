@@ -1,6 +1,6 @@
 {
   "name": "@hwittenborn/sandbox-runtime",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "(Temporary package until upstream merges are in) Anthropic Sandbox Runtime (ASRT) - A general-purpose tool for wrapping security boundaries around arbitrary processes",
   "type": "module",
   "main": "./dist/index.js",
